@@ -1,0 +1,2012 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta name="viewport" content="width=1250">
+<meta charset="UTF-8">
+<title>亙古幻想 Evertale 哈啦板 - 巴哈姆特</title>
+
+<meta property="og:site_name" content="巴哈姆特電玩資訊站">
+<meta property="fb:app_id" content="668497826514848">
+<meta name="description" content="歡迎來到亙古幻想 Evertale哈啦板，最新資訊及情報分享、精華好文查找、創作交流討論，盡在巴哈姆特！">
+<meta property="og:description" content="歡迎來到亙古幻想 Evertale哈啦板，最新資訊及情報分享、精華好文查找、創作交流討論，盡在巴哈姆特！"/>
+<link href="https://i2.bahamut.com.tw/css/basic.css?v=1589439300" rel="stylesheet" type="text/css" />
+<link href="https://i2.bahamut.com.tw/css/search.css?v=1530497531" rel="stylesheet" type="text/css" />
+<link href="https://i2.bahamut.com.tw/css/index_top.css?v=1573528117" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:300,400">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://i2.bahamut.com.tw/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link rel="apple-touch-icon" href="https://i2.bahamut.com.tw/apple-touch-icon.png" />
+<script src="https://i2.bahamut.com.tw/js/sys.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://i2.bahamut.com.tw/js/BAHA_EGG.js?v=1583139657"></script>
+<script src="https://i2.bahamut.com.tw/js/rsearch.js?v=1588644554"></script>
+<script src="https://i2.bahamut.com.tw/js/plugins/js.cookie-2.1.4.js?v=1502676176"></script>
+<script src="https://i2.bahamut.com.tw/js/plugins/dialogify.min.js?v=1582698924"></script>
+<script src="https://i2.bahamut.com.tw/js/user_login.js?v=1566194792"></script>
+<script src="https://i2.bahamut.com.tw/js/BH_topBar_noegg.js?v=1584074133" defer></script>
+<script src="https://i2.bahamut.com.tw/js/BH_mainmenu.js?v=1589439051" defer></script>
+<script src="https://i2.bahamut.com.tw/js/changeText.js?v=1581390583"></script>
+<script src="https://i2.bahamut.com.tw/js/util.js?v=1590639293"></script>
+<script src="https://i2.bahamut.com.tw/js/dfp.js?v=1542164791"></script>
+<script>
+jQuery(document).ready(function($) {
+if (typeof BH_AlkasooD === 'function') {
+BH_AlkasooD($);
+}
+});
+
+// anti adblock
+var AntiAd = AntiAd || {};
+(function(AntiAd) {
+'use strict';
+
+AntiAd.flag = false;
+AntiAd.whiteList = [];
+
+AntiAd.verifyLink = function (link) {}
+AntiAd.block = function() {}
+AntiAd.check = function(element) {}
+})(AntiAd);
+</script>
+<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/im_layout_lib.js?v=1586846585"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/im_top_bar.js?v=1573720361"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:300,400">
+<link href="https://i2.bahamut.com.tw/css/forum.css?v=1590734916" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/forum_wallpaper_C.css" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/plugins/tippy-1.4.0.css?v=1508309674" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/plugins/slick.css?v=1495087872" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/plugins/gamercard.css?v=1556273115" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/tippy-1.4.0.min.js?v=1508309663"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/slick-1.6.0.min.js?v=1495088259"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/gamercard.js?v=1564452653"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/forum_new.js?v=1557894426"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/embed_player.js?v=1532055550"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/forum_lastBoard.js?v=1525330826"></script>
+<script type="text/javascript">
+function forum_search_checkdata(){
+//精華區要另開視窗
+if( '請輸入搜尋字串...' == document.forum_search.sval.value || '' == document.forum_search.sval.value ) {
+alert('請輸入搜尋內容');
+return false;
+}
+if(7 == document.forum_search.stype.value){
+document.forum_search.target="_blank";
+}
+
+if(ga){
+ga('send', 'event', {
+eventCategory: '互動',
+eventAction: '哈啦區',
+eventLabel: '桌面搜尋',
+transport: 'beacon'
+});
+
+if (36345 == 60076) {
+ga('send', 'event', {
+eventCategory: '互動',
+eventAction: '哈啦區',
+eventLabel: '桌面搜尋-場外',
+transport: 'beacon'
+});
+}
+}
+document.forum_search.submit();
+return false;
+}
+
+function showbmset(bsn){
+//$.lightbox(bsn);
+egg.ajax({
+url: '/ajax/set_new.php',
+method: 'get',
+data: 'bsn='+bsn,
+success: function(text){
+egg.lightbox(text);
+}
+});
+}
+
+function addfavorite(bsn) {
+getCSRFToken().done(function(token) {
+jQuery.ajax({
+url: '/ajax/addfavorite.php',
+method: 'POST',
+data: { brdsn: bsn, token: token },
+}).done(function(code) {
+switch(code) {
+case 'nologin':
+Dialogify.alert("您尚未登入");
+break;
+case 'added':
+Dialogify.alert("您已訂閱過此板");
+break;
+case 'success':
+Dialogify.alert("訂閱看板完成");
+break;
+default:
+Dialogify.alert("系統維護中！");
+}
+});
+});
+}
+
+function FORUM_C_share(bsn, snA) {
+bsn = parseInt(bsn, 10);
+snA = parseInt(snA, 10);
+
+if (!bsn || !snA || !FB) {
+return;
+}
+
+FB.ui({
+method: 'share_open_graph',
+action_type: 'og.likes',
+action_properties: JSON.stringify({
+object:'http://forum.gamer.com.tw/C.php?bsn=' + bsn + '&snA=' + snA,
+})
+}, function(response){});
+}
+
+function FORUM_Co_share(bsn, sn) {
+bsn = parseInt(bsn, 10);
+sn = parseInt(sn, 10);
+
+if (!bsn || !sn || !FB) {
+return;
+}
+
+FB.ui({
+method: 'share_open_graph',
+action_type: 'og.likes',
+action_properties: JSON.stringify({
+object:'http://forum.gamer.com.tw/Co.php?bsn=' + bsn + '&sn=' + sn,
+})
+}, function(response){});
+}
+
+function doLogin(backurl){
+backurl = 'https://acg.gamer.com.tw/'+backurl;
+setCookieNew('ckFrom', backurl, 'gamer.com.tw','/');
+location.href = 'https://user.gamer.com.tw/login.php';
+}
+</script>
+<link rel="canonical" href="https://forum.gamer.com.tw/B.php?bsn=36345">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.gamer.com.tw/forum/B.php?bsn=36345">
+<meta property="og:title" content="亙古幻想 Evertale 哈啦板 - 巴哈姆特">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://forum.gamer.com.tw/B.php?bsn=36345">
+<meta property="og:image" content="https://p2.bahamut.com.tw/FORUM/welcome/36345_1_1586344957.JPG">
+<meta name="thumbnail" content="https://p2.bahamut.com.tw/FORUM/welcome/36345_1_1586344957.JPG">
+
+<script type="application/ld+json">[{"@context":"http:\/\/schema.org","@type":"WebSite","name":"\u5df4\u54c8\u59c6\u7279\u96fb\u73a9\u8cc7\u8a0a\u7ad9","url":"https:\/\/www.gamer.com.tw\/","alternateName":"\u5df4\u54c8\u59c6\u7279"},{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/forum.gamer.com.tw\/","name":"\u54c8\u5566\u5340"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/forum.gamer.com.tw\/B.php?bsn=36345","name":"\u4e99\u53e4\u5e7b\u60f3 Evertale"}}]}]</script>
+<script src="https://i2.bahamut.com.tw/forum/subboard/36345.js"></script>
+<script src="https://i2.bahamut.com.tw/js/forum_b.js?v=1566541926"></script>
+<script src="https://i2.bahamut.com.tw/js/forum_common.js?v=1589179171"></script>
+<script src="https://i2.bahamut.com.tw/js/movetomobile.js?v=1563334688"></script>
+<script src="https://i2.bahamut.com.tw/js/quiz.js?v=1513580883"></script>
+<script src="https://i2.bahamut.com.tw/js/plugins/tether.js?v=1502676176"></script>
+<script src="https://i2.bahamut.com.tw/js/plugins/shepherd.min.js?v=1502676176"></script>
+<script>window.lazySizesConfig = window.lazySizesConfig || {};lazySizesConfig.init = false;</script>
+<script src="https://i2.bahamut.com.tw/js/plugins/lazysizes-3.0.0.min.js?v=1492420851"></script>
+<link href="https://i2.bahamut.com.tw/css/forum_wide.css?v=1587021050" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/forum-beta.css?v=1543561003" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/plugins/shepherd-theme-arrows.css?v=1502676176" rel="stylesheet" type="text/css">
+<link href="https://i2.bahamut.com.tw/css/forum-fontfix.css?v=1517985964" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://i2.bahamut.com.tw/css/plugins/croppie-2.5.0.css?v=1508227309" />
+<link rel="stylesheet" type="text/css" href="https://i2.bahamut.com.tw/css/plugins/toastr.min.css?v=1498617831" />
+<link rel="stylesheet" type="text/css" href="https://i2.bahamut.com.tw/css/im_all-site-message.css?v=1566976579"/>
+<link rel="stylesheet" type="text/css" href="https://i2.bahamut.com.tw/css/im_all-site-message-utils.css?v=1559286024"/>
+
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/lightbox.js?v=1493864417"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/croppie-2.5.0.js?v=1508227263"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/toastr-2.1.3.min.js?v=1498617831"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/jquery/jquery.md5.js?v=1507198213"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/jquery/jquery.qrcode.min.js?v=1507887901"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/jquery/jquery-jqdnr.js?v=1557204106"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/honorData.js?v=1589356216"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/plugins/async.min.js?v=1512036516"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/im_data_forum.js?v=1584353065"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/im_layout_forum.js?v=1578973481"></script>
+
+<script type="text/javascript">
+
+</script>
+
+
+<script>
+
+if (window.Cookies) {
+BAHAID = Cookies.get('BAHAID') || "";
+} else if (window.getCookie) {
+BAHAID = getCookie( 'BAHAID' );
+} else if (window.jQuery && jQuery.cookie) {
+BAHAID = jQuery.cookie('BAHAID') || "";
+} else {
+BAHAID = "";
+}
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-108920-1', 'auto');
+
+ga('set', {"dimension1":"36345"});
+
+if (BAHAID) {
+ga('set', 'userId', BAHAID.toLowerCase());
+}
+
+ga('send', 'pageview');
+</script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+if (window.Cookies) {
+bahalv = Cookies.get('BAHALV') || "";
+} else if (window.getCookie) {
+bahalv = getCookie( 'BAHALV' );
+} else if (window.jQuery && jQuery.cookie) {
+bahalv = jQuery.cookie('BAHALV') || "";
+} else {
+bahalv = "";
+}
+
+bahalv = (bahalv) ? bahalv : 0;
+
+var fparam = location.search;
+var bsnary = fparam.match(/\d+/g);
+var gpt_bsn = (bsnary === null) ? 0 : bsnary[0];
+
+googletag.cmd.push(function() {
+googletag.defineSlot('/1017768/AD_desktopweb_forum_b_tower', [[300, 250], [300, 600], 'fluid'], 'div-gpt-ad-1489070677458-0').addService(googletag.pubads());window.DFP.setTargeting();
+googletag.pubads().setTargeting("LV", bahalv);
+googletag.pubads().setTargeting("bsn", gpt_bsn);
+googletag.pubads().setTargeting("service","forum");
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+});
+</script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/ad.js?v=1503892987"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/JS/ad/insideAD.js?v=2020060300"></script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDKMGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDKMGT');</script>
+<!-- End Google Tag Manager -->
+<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=668497826514848"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+<div class="TOP-bh"><!--全站內頁天-->
+<div class="TOP-data" id="BH-top-data"><!--全站內頁天中間區塊-->
+<div class="TOP-my"></div>
+<div id="topBarMsg_more" style="display:none"></div>
+<script>
+var hotKeywords = ["\u9996\u62bd","\u65b0\u624b","\u9053\u9928","\u6bd2","\u8a13\u7df4","5","\u8a13\u7df4\u9053\u9928","\u9032\u5316","\u89d2\u8272","\u653b\u7565","\u968a\u4f0d","\u7d20\u6750","\u6d3b\u52d5","\u89ba\u9192","20"];
+var useOldSearch = 0;
+var googlecseLoad = function() {
+var cx = '001994533065495648396:c3salsx3fty';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+};
+
+jQuery(function(){
+Forum.LastBoard.addBoard('36345', "\u4e99\u53e4\u5e7b\u60f3 Evertale");
+});
+</script>
+<link href="https://i2.bahamut.com.tw/css/gcse.css?v=1569895465" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="https://i2.bahamut.com.tw/js/forum_search.js?v=1569211917"></script>
+<!-- New Searchbox -->
+<a class="logo" href="https://www.gamer.com.tw/"><img src="https://i2.bahamut.com.tw/top_logo.svg" style="height:35px;"></a>
+<div class="header__search gcse-bar mobilehide">
+<div id="searchbox" class="top__gcse gcse-main"></div>
+<div id="old_search_searchbox" class="top__gcse gcse-main" style="display:none">
+<form class="gsc-search-box gsc-search-box-tools" id="old_search_form" method="GET" onsubmit="return forumSearch.submit();">
+<table class="gsc-search-box">
+<tr>
+<td class="gsc-input">
+<div class="gsc-input-box">
+<table class="gstl_50">
+<tr>
+<td class="gsib_a">
+<input class="gsc-input" id="old_search_input" name="sval" autocomplete="off" style="width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background: text-indent: 48px;" value="" placeholder="找標題">
+<input name="bsn" type="hidden" value="36345">
+<input name="stype" id="stype" type="hidden" value="1">
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div class="gcse-option">
+<button type="button" class="gcse-option-control"><span class="material-icons">&#xE313;</span></button>
+<button type="button" class="gcse-clear" style="display:none;"><span class="material-icons">&#xE5C9;</span></button>
+<div class="gcse-dropdown gcse-sort">
+<ul>
+<li><span class="gcse-sort-title">找標題</span><span>查詢標題相符的文章</span></li>
+<li><span class="gcse-sort-title">找作者</span><span>查詢作者相符的文章</span></li>
+<li><span class="gcse-sort-title">找M文</span><span>查詢被 MARK 的文章</span></li>
+<li><span class="gcse-sort-title">找全文</span><span>搜尋本板文章、作者</span></li>
+</ul>
+</div>
+<div class="gcse-dropdown gcse-suggest">
+<div class="gcse-suggest-child" id="gcse-suggest-child-recently"></div>
+<div class="gcse-suggest-child" id="gcse-suggest-child-hot"></div>
+</div>
+</div>
+</div>
+<div id="js-SearchForm" class="nav_searchform" style="display: none;">
+<span class="nav-search-close-button" tabindex="0" onclick="TopBar.hideSearchBar();">✕</span>
+<div class="nav-search-inner">
+<p class="TOP-search">
+<div class="header__search gcse-bar">
+<div id="searchbox_mobile" class="top__gcse gcse-main"></div>
+<div id="old_search_searchbox_mobile" class="top__gcse gcse-main" style="display:none">
+<form class="gsc-search-box gsc-search-box-tools" id="old_search_form_mobile" method="GET" onsubmit="return forumSearch.submit();">
+<table class="gsc-search-box">
+<tr>
+<td class="gsc-input">
+<div class="gsc-input-box">
+<table class="gstl_50" style="width: 100%">
+<tr>
+<td class="gsib_a">
+<input class="gsc-input" id="old_search_input_mobile" name="sval" autocomplete="off" style="width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background: text-indent: 48px;" value="" placeholder="找標題">
+<input name="bsn" type="hidden" value="36345">
+<input name="stype" id="stype_mobile" type="hidden" value="1">
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div class="gcse-option">
+<button type="button" class="gcse-option-control"><span class="material-icons">&#xE313;</span></button>
+<button type="button" class="gcse-clear" style="display:none;"><span class="material-icons">&#xE5C9;</span></button>
+<div class="gcse-dropdown gcse-sort">
+<ul>
+<li><span class="gcse-sort-title">找標題</span><span>查詢標題相符的文章</span></li>
+<li><span class="gcse-sort-title">找作者</span><span>查詢作者相符的文章</span></li>
+<li><span class="gcse-sort-title">找M文</span><span>查詢被 MARK 的文章</span></li>
+<li><span class="gcse-sort-title">找全文</span><span>搜尋本板文章、作者</span></li>
+</ul>
+</div>
+<div class="gcse-dropdown gcse-suggest">
+<div class="gcse-suggest-child" id="gcse-suggest-child-recently_mobile">
+</div>
+<div class="gcse-suggest-child" id="gcse-suggest-child-hot_mobile">
+</div>
+</div>
+</div>
+</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+service = new rsearch('rsearch');
+
+function insideSecondaryfunc(frm, evt)
+{
+if (egg('.isecondaryfunc').size() > 0) {
+var class_display_state = egg('.isecondaryfunc').css('display');
+if ("none" == class_display_state) {
+if (frm  == 1) {
+egg('.isecondaryfunc').css('display', '');
+egg('#isecondaryfuncshow').css('display', 'none');
+}
+} else {
+egg('.isecondaryfunc').css('display', 'none');
+egg('#isecondaryfuncshow').css('display', '');
+}
+
+evt.preventDefault();
+evt = window.event || evt;
+egg.event.stop(evt);
+}
+}
+</script>
+</div><!--全站內頁天中間區塊結束-->
+</div><!--全站內頁天結束-->
+<!--全站主選單-->
+<div id="BH-menu-fill">&nbsp;</div>
+<div id="BH-menu-path" class="BH-menu ">
+<script>
+jQuery(function() {
+var searchParam = false;BH_Menu_Render('FORUM_board', 2, 0, 'board_name=%E4%BA%99%E5%8F%A4%E5%B9%BB%E6%83%B3%20Evertale<>board_sn=36345<>c1=34450<>snA=<>sn=<>subbsn=0<>page=B.php<>lock=<>article_title=<>bPage=', searchParam, false);
+});
+</script>
+</div>
+<!--全站主選單結束-->
+<div id="bh-banner" class="bh-banner ">
+<div id="BH-bigbanner"><script type='text/javascript'>top_abanner1000()</script>
+</div></div>
+<div id="BH-background">
+<div id="BH-wrapper" class=""><!--最外層寬1000包裝-->
+<div style="width:0;height:0;position:relative;top:0px;left:0px;z-index:100;"><div style="position:absolute; top:0px; left:730px; width:268px; border: solid 1px #000000; background: #FFFFFF; z-index:100;display:none;" class="rsearch" id="rsearch" align="left"><ol id="suggestol"></ol></div></div><!--搜尋BAR下拉結束-->
+
+<!--服務選單-->
+<div id="BH-master"><!--內容左側區塊--><div class="b-pager pager"><div id="BH-pagebtn" onkeydown="chpagehotkey(event.keyCode)" >
+<a title="上一頁快速鍵：F7" class="prev no">◄</a><a href='?page=2&bsn=36345' title='下一頁快速鍵：F8' class='next'>►</a><p class="BH-pagebtnA">
+<a class="pagenow">1</a><a href="?page=2&bsn=36345">2</a><a href="?page=3&bsn=36345">3</a><a href="?page=4&bsn=36345">4</a>...<a href="?page=26&bsn=36345">26</a></p>
+</div>
+<script>
+function chpagehotkey(code){
+if (code === 119) {
+location.href = "?page=2&bsn=36345";
+
+} else if(code === 118) {
+location.href = "?page=0&bsn=36345";
+}
+}
+</script>
+</div><!--文章列表開始-->
+<script>
+subboard(0);
+</script>
+
+<form name="formm" method="post" action="">
+<input type="hidden" name="gparent" value=0>
+<input type="hidden" name="unlock" value=0>
+<input type="hidden" value="2732" name="vcode">
+
+<div class="b-list-wrap b-imglist-wrap b-imglist-wrap03">
+<table class="b-list">
+<tr class="b-list__head">
+<td colspan="2" class="b-list__filter">
+<div class="BH_forum_mainop">
+<span>
+<a href="javascript:Forum.B.listType(Forum.B.TYPE_RICH);" class="now_stop">
+<i class="fa fa-th-list" aria-hidden="true"></i>縮圖
+</a>
+<a href="javascript:Forum.B.listType(Forum.B.TYPE_SIMPLE);"><i class="fa fa-align-justify" aria-hidden="true"></i>清單</a>
+</span>
+</div>
+<div class="b-header_filter">
+<p><i class="fa fa-filter" aria-hidden="true"></i>篩選 :</p>
+<select class="b-list__filter__gp is-select" onchange="Forum.B.gpList(36345, jQuery(this).val());">
+<option value="0" selected>GP 數</option><option value="5">GP &gt; 5</option><option value="20">GP &gt; 20</option><option value="50">GP &gt; 50</option><option value="100">GP &gt; 100</option><option value="200">GP &gt; 200</option>
+</select>
+<div>
+<button type="button" class="b-list__filter__feature" onclick="Forum.B.extractList(36345, 0);">精華</button>
+<button type="button" class="b-list__filter__expert" onclick="Forum.B.darenList(36345, 0);">達人</button>
+</div>
+</div><div class="b-header_filter">
+<button onclick="Forum.B.orderBy(Forum.B.ORDER_POST);" class="b-list__filter__latest" type="button">依開串時間</button>
+</div>
+</td>
+<td>互動 / 人氣</td>
+<td>最新回覆</td>
+</tr><tr class="b-list__row b-list__row--sticky b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="3890"></a>
+<p class="b-list__summary__sort"><a href="//fuli.gamer.com.tw/index.php?t=1">活動訊息</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+
+<div class="b-list__tile">
+<div title="置頂" class="b-list__summary__mark b-mark b-mark--update"><i class="material-icons raise">&#xE5D8;</i>置頂</div>
+<a data-gtm="B頁文章列表-縮圖" href="C.php?bsn=60404&snA=3890&tnum=1" class="b-list__main__title">【巴哈】輕鬆不放縱，哈啦園地有賴你我共同維繫</a>
+</div>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：0">0</span>/
+<span title="人氣：0">0</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/SYSOP" target="_blank">SYSOP</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=60404&snA=3890&tnum=1&last=1">今日 12:00</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/SYSOP" target="_blank">SYSOP</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="778"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=778&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://i1.ytimg.com/vi/0zPssLzc9xA/hqdefault.jpg"><div class="video-mask"></div>
+<img class="video-btn_play" src="https://i2.bahamut.com.tw/icon_videoplayer.svg"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=778&tnum=1" class="b-list__main__title">【閒聊】無解</p>
+</div>
+<p class="b-list__brief">這種時候除了比電量還有辦法嗎???</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：1">1</span>/
+<span title="人氣：29">29</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/ien20050714" target="_blank">ien20050714</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=778&tnum=1&last=1">昨日 22:40</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/ien20050714" target="_blank">ien20050714</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="777"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=777&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202006/36f55248c4dceeb6b9fc181614564f1e.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=777&tnum=1" class="b-list__main__title">【其他】求換一隻新手暗女主</p>
+</div>
+<p class="b-list__brief">請求各位大大可以換一隻暗女主給我 之前想抽一直抽不到 現在卡池關了也沒辦法刷了</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：0">0</span>/
+<span title="人氣：0">0</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/A35880948" target="_blank">A35880948</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=777&tnum=1&last=1">昨日 22:25</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/A35880948" target="_blank">A35880948</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="776"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=776&tnum=2" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202006/fc0664d6ce2ab8277aa07d4b751ac2e8.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=776&tnum=2" class="b-list__main__title">【問題】毒隊卡關線上劇情困難7-4黑女主 有什麼方法可以過嗎</p>
+</div>
+<p class="b-list__brief">最多靠傭兵打到黑女主剩3分之1血而且 求解</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：3">3</span>/
+<span title="人氣：36">36</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/ucchusma222" target="_blank">ucchusma222</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=776&tnum=2&last=1">昨日 15:38</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/Dknight0914" target="_blank">Dknight0914</a>
+</p>
+</td>
+</tr><tr class="b-list__row">
+<td colspan="4" class="b-list_ad">
+<div class="attribution">廣告</div>
+<div style="min-height:47px;" id="ad-native-b"></div>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="775"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=775&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202006/e7f9b6314aa64165ba3de1c9c50dad8a.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=775&tnum=1" class="b-list__main__title">【問題】首抽求檢</p>
+</div>
+<p class="b-list__brief">請問首抽暗黑露蒂蜜拉可以開局嗎？ 該怎麼組隊比較好呢？</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：0">0</span>/
+<span title="人氣：0">0</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/sea59401104" target="_blank">sea59401104</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=775&tnum=1&last=1">昨日 12:09</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/sea59401104" target="_blank">sea59401104</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="613"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">2</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=613&tnum=3" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202003/60c65688bf85e425d02db80b8c1a4b78.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=613&tnum=3" class="b-list__main__title">【其他】送帳號</p>
+</div>
+<p class="b-list__brief">比較喜歡其他角色 想重刷帳號 故送出 不是石頭號</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：9">9</span>/
+<span title="人氣：958">958</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/kkop084949" target="_blank">kkop084949</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=613&tnum=3&last=1">昨日 11:36</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/kkop084949" target="_blank">kkop084949</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="774"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=774&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="1" data-text="問題"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=774&tnum=1" class="b-list__main__title">【問題】更新後</p>
+</div>
+<p class="b-list__brief">我昨天打活動困難EX23關的隊伍可以自動通關，可是今天更新後就不行了，這是更新問題吧?</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：4">4</span>/
+<span title="人氣：31">31</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/sam87714" target="_blank">sam87714</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=774&tnum=1&last=1">昨日 09:39</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/sam87714" target="_blank">sam87714</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="13"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">12</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=13&tnum=4" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="2" data-text="心得"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=13&tnum=4" class="b-list__main__title">【心得】新手請進來看一下</p>
+</div>
+<p class="b-list__brief">很多新手都會有一些問題，所以我收集了一些比較常見的問題，再以過來人的身份盡量為大家解答，希望大家能找到答案。 Ｑ１：這遊戲需要刷首抽嗎？ Ａ：如果你是休閒玩家，目&hellip;</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：21">21</span>/
+<span title="人氣：16,135">16k</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/kayahooho" target="_blank">kayahooho</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=13&tnum=4&last=1">06/01 22:35</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/h8581889427" target="_blank">h8581889427</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="773"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=773&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="1" data-text="問題"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=773&tnum=1" class="b-list__main__title">【問題】多久才能10抽啊......</p>
+</div>
+<p class="b-list__brief">我打到四章了欸=才280</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：6">6</span>/
+<span title="人氣：17">17</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/h8581889427" target="_blank">h8581889427</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=773&tnum=1&last=1">06/01 22:31</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/h8581889427" target="_blank">h8581889427</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="772"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=772&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="2" data-text="心得"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=772&tnum=1" class="b-list__main__title">【心得】這遊戲好玩嘛</p>
+</div>
+<p class="b-list__brief">有沒有競技場</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：1">1</span>/
+<span title="人氣：5">5</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/h8581889427" target="_blank">h8581889427</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=772&tnum=1&last=1">06/01 15:06</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/h8581889427" target="_blank">h8581889427</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="763"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">3</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=763&tnum=7" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/4a45405ede80dd98db58174b5a54934c.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=763&tnum=7" class="b-list__main__title">十抽才是真理吧</p>
+</div>
+<p class="b-list__brief">單抽神教是什麼，十抽才是真理吧</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：8">8</span>/
+<span title="人氣：764">764</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/abandon0" target="_blank">abandon0</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=763&tnum=7&last=1">06/01 14:56</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/fatwing1218" target="_blank">fatwing1218</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="754"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">1</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=754&tnum=3" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/e51ba4f1272d592b2fcb82ea6c059ede.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=754&tnum=3" class="b-list__main__title">【問題】新手求健檢</p>
+</div>
+<p class="b-list__brief">想請問各位大佬，小弟剛玩這個遊戲一週，剛好有抽到暗女主，但抽土艾沒中，想請問建議再抽哪隻角色會更完美?(聽說光盾很重要)</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：4">4</span>/
+<span title="人氣：721">721</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/erichung168" target="_blank">erichung168</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=754&tnum=3&last=1">06/01 11:37</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/die0928" target="_blank">die0928</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="764"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=764&tnum=5" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/2a1c4b88be0c4f8ae928217f7dfea031.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=764&tnum=5" class="b-list__main__title">【問題】毒暈隊？ +送4ssr帳</p>
+</div>
+<p class="b-list__brief">這些角色可以組毒暈隊嗎？ 次序該怎樣擺？ 這次有幸抽到黑艾絲，所以要把4ssr的小帳送出， 其實上次送過一次， 不過得獎者一直沒有回覆我所以再送一次。</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：20">20</span>/
+<span title="人氣：684">684</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/dghrts145" target="_blank">dghrts145</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=764&tnum=5&last=1">06/01 07:26</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/dghrts145" target="_blank">dghrts145</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="771"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=771&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/d19a8d526b6b37560e5ac3033d2ff4dd.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=771&tnum=1" class="b-list__main__title">【問題】求教學首抽</p>
+</div>
+<p class="b-list__brief">這遊戲寶石送那麼少第一章都過完了 才150顆 首10抽要1000顆 正常嗎？ 還是哪裡的獎勵我沒有領到？</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：3">3</span>/
+<span title="人氣：148">148</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/sea59401104" target="_blank">sea59401104</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=771&tnum=1&last=1">05/31 18:36</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/sea59401104" target="_blank">sea59401104</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="770"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=770&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/bada251c74ae6aff1199044b6fd2a0ee.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=770&tnum=1" class="b-list__main__title">【問題】想詢問一下_(:з」∠)_</p>
+</div>
+<p class="b-list__brief">最近買了好多組抽石號來自己抽，唯一感覺抽到還不錯的是這組，不曉得這組能玩嗎⋯</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：5">5</span>/
+<span title="人氣：341">341</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/jerry3912" target="_blank">jerry3912</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=770&tnum=1&last=1">05/31 12:40</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/jerry3912" target="_blank">jerry3912</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="769"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=769&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/e4613743e242eb60cdaef227a8fb939a.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=769&tnum=1" class="b-list__main__title">【問題】送帳號</p>
+</div>
+<p class="b-list__brief">送此帳，想要的留言，希望有心經營再要。</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：8">8</span>/
+<span title="人氣：155">155</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/aa0963536600" target="_blank">aa0963536600</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=769&tnum=1&last=1">05/31 10:59</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/aa0963536600" target="_blank">aa0963536600</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="768"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=768&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/390825a5ad85ba185e447ff058fce477.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=768&tnum=1" class="b-list__main__title">【其他】送帳號</p>
+</div>
+<p class="b-list__brief">想要的留言，希望有心經營再要</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：5">5</span>/
+<span title="人氣：156">156</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/aa0963536600" target="_blank">aa0963536600</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=768&tnum=1&last=1">05/31 10:57</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/aa0963536600" target="_blank">aa0963536600</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="767"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">3</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=767&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/a13bb8b8542ce67fb3e4219b4226c63e.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=767&tnum=1" class="b-list__main__title">【心得】黑蜜拉不專業解說攻略（？）</p>
+</div>
+<p class="b-list__brief">https://twitter.com/Evertale_JP/status/1233363253352288258?s=20 ((↑官方推特介紹，講得比我還詳細呢呵呵↑)) (σ 一.一)σ(σ 一.一)σ(σ 一.一)σ(σ 一.一)σ(σ 一.一)σ(σ 一.一)σ(σ 一.一)σ 不專業介紹&hellip;</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：2">2</span>/
+<span title="人氣：553">553</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/hch928" target="_blank">hch928</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=767&tnum=1&last=1">05/30 20:40</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/hch928" target="_blank">hch928</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="762"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=762&tnum=2" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="4" data-text="閒聊"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=762&tnum=2" class="b-list__main__title">【閒聊】新手入坑感想及些許問題（部分帳號釋出）</p>
+</div>
+<p class="b-list__brief">本人被夏娜萌到 我是這回免費下載時入坑的，玩了一下覺得有趣，劇情也吸引。 原本玩了第一隻首抽是隻醜怪潔妲蕾伊，玩了幾天查了一下網上攻略（雖然攻略好像很少？），才發&hellip;</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：4">4</span>/
+<span title="人氣：629">629</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/wishwing" target="_blank">wishwing</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=762&tnum=2&last=1">05/30 19:17</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/lin000319" target="_blank">lin000319</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="766"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=766&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/8f7a98971e3ba6c7521e3c43ff62dea2.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=766&tnum=1" class="b-list__main__title">【問題】火隊</p>
+</div>
+<p class="b-list__brief">想用此帳火隊換個極限隊或匿蹤隊玩到有點膩了想換個隊伍玩玩</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：0">0</span>/
+<span title="人氣：228">228</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/aa0963536600" target="_blank">aa0963536600</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=766&tnum=1&last=1">05/30 01:12</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/aa0963536600" target="_blank">aa0963536600</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="765"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">1</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=765&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="4" data-text="閒聊"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=765&tnum=1" class="b-list__main__title">【閒聊】送2個有SSR的帳號</p>
+</div>
+<p class="b-list__brief">送2個抽完的石頭號 進度都在第一章 我只打出SSR角色的部分 武器SSR有蠻多的 因為主要帳號抽到想要的角色 所以多的號送出 請留言~先到先得! 留言後 我會私信給帳號恢復碼 麻煩在留&hellip;</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：9">9</span>/
+<span title="人氣：336">336</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/a7236573" target="_blank">a7236573</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=765&tnum=1&last=1">05/29 23:36</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/a7236573" target="_blank">a7236573</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="516"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">1</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=516&tnum=2" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202002/77d1ada192eea80f48e4dda296ed514f.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=516&tnum=2" class="b-list__main__title">【其他】新公會招生</p>
+</div>
+<p class="b-list__brief">鑒於版上沒什麼公會 遊戲內又都是外語公會居多 於是自己創了一個 歡迎喜歡這遊戲的人一起進來努力&拿$$ （拒絕躺分的人 會踢）</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：11">11</span>/
+<span title="人氣：506">506</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/ericghost560" target="_blank">ericghost560</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=516&tnum=2&last=1">05/29 11:39</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/ericghost560" target="_blank">ericghost560</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="761"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=761&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="1" data-text="問題"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=761&tnum=1" class="b-list__main__title">【問題】有人知道娜薩什麼時候復刻嗎？</p>
+</div>
+<p class="b-list__brief">如題</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：2">2</span>/
+<span title="人氣：259">259</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/csoin409" target="_blank">csoin409</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=761&tnum=1&last=1">05/28 16:52</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/csoin409" target="_blank">csoin409</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item is-del">
+<td class="b-list__summary">
+<a name="760"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://i2.bahamut.com.tw/forum/no-img-del.png"></div>
+<div class="imglist-text">
+<span class="b-list__main__title">本討論串已無文章</span>
+
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：17">17</span>/
+<span title="人氣：259">259</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/bhmt1122" target="_blank">bhmt1122</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+05/26 11:56
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/bhmt1122" target="_blank">bhmt1122</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="753"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">1</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=753&tnum=4" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/d56467a2d499866741d43fa8f02ce1fc.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=753&tnum=4" class="b-list__main__title">【閒聊】高手公會 收人中。排行榜第一頁</p>
+</div>
+<p class="b-list__brief">風起雲湧，高手收人中。 要求個人積分1200，階級10階以內。 打的勤快，有Line群分享經驗。 名額有限</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：10">10</span>/
+<span title="人氣：845">845</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/delan08040" target="_blank">delan08040</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=753&tnum=4&last=1">05/25 08:35</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/delan08040" target="_blank">delan08040</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="759"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=759&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="4" data-text="其他"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=759&tnum=1" class="b-list__main__title">【其他】累了 想找人認養帳號 資訊只有文字請見諒</p>
+</div>
+<p class="b-list__brief">雖然有心 但有點無力繼續玩下去 不想努力就這樣消失 如果有要認養的 麻煩答應我 好好善待這帳號 然後如果哪天不想玩了 看看能不能再找個新主人 好了 說一下比較重要的資訊 角&hellip;</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：4">4</span>/
+<span title="人氣：596">596</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/KMNLION" target="_blank">KMNLION</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=759&tnum=1&last=1">05/24 17:37</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/KMNLION" target="_blank">KMNLION</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="758"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=758&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/ec5a37a9b64b6905093ed38c97ab8ef2.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=758&tnum=1" class="b-list__main__title">【密技】還敢不加入單抽神教丫</p>
+</div>
+<p class="b-list__brief">之前十連瘋狂爆死，現在單抽各種彩門==</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：14">14</span>/
+<span title="人氣：889">889</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/H125984229" target="_blank">H125984229</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=758&tnum=1&last=1">05/24 01:45</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/H125984229" target="_blank">H125984229</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="757"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">1</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=757&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/ff47ac55ff3c19651b3730b5838c4174.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=757&tnum=1" class="b-list__main__title">【閒聊】單抽</p>
+</div>
+<p class="b-list__brief">既上次10連總共100抽要抽黑女全部槓龜而且只有一把ssr武器..之後就不在10連抽了.. 選擇單抽..結果幾率好像更高..更好抽了,.,..分享讓大家也歐一下!!</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：4">4</span>/
+<span title="人氣：677">677</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/gtamomo" target="_blank">gtamomo</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=757&tnum=1&last=1">05/23 10:12</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/gtamomo" target="_blank">gtamomo</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="386"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">41</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=386&tnum=11" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202004/b7a336a50edf1a00f9db4c4a1eb16d90.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=386&tnum=11" class="b-list__main__title">【攻略】攻略合輯 (新手、角色資料、道館、素材材料、活動關卡、交換所)</p>
+</div>
+<p class="b-list__brief">更新日期為：2020.04.22 新增內容為: 六、自己對一些好角色的判斷DDD 為了自己遊玩方便，所創的一點小攻略。 以下蠻多都是自己主觀的想法攻略，希望大家一起友善討論，如有謬誤再&hellip;</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：62">62</span>/
+<span title="人氣：23,309">23k</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/q650213" target="_blank">q650213</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=386&tnum=11&last=1">05/20 15:27</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/Leon0AuYeung" target="_blank">Leon0AuYeung</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="756"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+<span class="b-list__summary__gp b-gp b-gp--normal">2</span>
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=756&tnum=1" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img skeleton lazyload" data-thumbnail="https://truth.bahamut.com.tw/s01/202005/3fe1d8dec4f813f59f1c51e8bb4be5db.JPG?w=300&h=300&fit=o"></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=756&tnum=1" class="b-list__main__title">【心得】昇華系統</p>
+</div>
+<p class="b-list__brief">升1等會有13點數 升到15％需要106點數 升到7％只需要22點數 升越高所需點數越多 無止盡刷資源的時代來臨了！</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：5">5</span>/
+<span title="人氣：810">810</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/Dknight0914" target="_blank">Dknight0914</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=756&tnum=1&last=1">05/20 09:30</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/Dknight0914" target="_blank">Dknight0914</a>
+</p>
+</td>
+</tr><tr class="b-list__row b-list-item b-imglist-item">
+<td class="b-list__summary">
+<a name="755"></a>
+<p class="b-list__summary__sort"><a href="B.php?bsn=36345&subbsn=1" data-subbsn="1">綜合討論</a></p>
+
+
+
+</td>
+<td class="b-list__main">
+<a href="C.php?bsn=36345&snA=755&tnum=2" data-gtm="B頁文章列表-縮圖">
+<div class="b-list__img"><canvas width="120" height="68" data-image="1" data-text="問題"></canvas></div>
+<div class="imglist-text">
+<div class="b-list__tile">
+
+<p data-gtm="B頁文章列表-縮圖" href="C.php?bsn=36345&snA=755&tnum=2" class="b-list__main__title">【問題】如何轉換語言</p>
+</div>
+<p class="b-list__brief">請問各位大大，遊戲要在那裡轉換語言啦？</p>
+</div>
+</a>
+</td>
+<td class="b-list__count">
+<p class="b-list__count__number">
+<span title="互動：4">4</span>/
+<span title="人氣：275">275</span>
+</p>
+<p class="b-list__count__user">
+<a href="https://home.gamer.com.tw/Dondonemi" target="_blank">Dondonemi</a>
+</p>
+</td>
+<td class="b-list__time">
+<p class="b-list__time__edittime">
+<a data-gtm="B頁文章列表-縮圖" title="觀看最新回覆文章" href="C.php?bsn=36345&snA=755&tnum=2&last=1">05/20 07:13</a>
+</p>
+<p class="b-list__time__user">
+<a href="https://home.gamer.com.tw/Dondonemi" target="_blank">Dondonemi</a>
+</p>
+</td>
+</tr></table></div></form>
+<!--列表結束-->
+
+<div class="b-popular popular"><h3 class="popular__title">本板熱門推薦</h3><div class="popular__item nocontent">
+<a href="//forum.gamer.com.tw/C.php?bsn=36345&snA=3" data-gtm="熱門推薦">
+<div class="img">
+<img src="https://truth.bahamut.com.tw/s01/201903/a39317f6d82e0715e1351e7fb08804c2.JPG?w=300&h=300&fit=o" alt="" />
+</div>
+<p class="name">【攻略】【活動】訓練道館攻略</p>
+</a>
+</div><div class="popular__item nocontent">
+<a href="//forum.gamer.com.tw/C.php?bsn=36345&snA=767" data-gtm="熱門推薦">
+<div class="img">
+<img src="https://truth.bahamut.com.tw/s01/202005/a13bb8b8542ce67fb3e4219b4226c63e.JPG?w=300&h=300&fit=o" alt="" />
+</div>
+<p class="name">【心得】黑蜜拉不專業解說攻略（？）</p>
+</a>
+</div><div class="popular__item nocontent">
+<a href="//forum.gamer.com.tw/C.php?bsn=36345&snA=13" data-gtm="熱門推薦">
+<div class="img">
+<img src="https://avatar2.bahamut.com.tw/avataruserpic/k/a/kayahooho/kayahooho.png" alt="" />
+</div>
+<p class="name">【心得】新手請進來看一下</p>
+</a>
+</div></div><div class="b-pager pager"><div id="BH-pagebtn" onkeydown="chpagehotkey(event.keyCode)" >
+<a title="上一頁快速鍵：F7" class="prev no">◄</a><a href='?page=2&bsn=36345' title='下一頁快速鍵：F8' class='next'>►</a><p class="BH-pagebtnA">
+<a class="pagenow">1</a><a href="?page=2&bsn=36345">2</a><a href="?page=3&bsn=36345">3</a><a href="?page=4&bsn=36345">4</a>...<a href="?page=26&bsn=36345">26</a></p>
+</div>
+<script>
+function chpagehotkey(code){
+if (code === 119) {
+location.href = "?page=2&bsn=36345";
+
+} else if(code === 118) {
+location.href = "?page=0&bsn=36345";
+}
+}
+</script>
+</div></div><!--內容左側區塊結束-->
+<div id="BH-slave"><!--右側區塊-->
+<div class="BH-rbox FM-rbox14"><!-- 板主區 開始 --><div class="FM-rbox14-master">板務人員：<a href="//forum.gamer.com.tw/applyBM/?bsn=36345">歡迎申請板主</a></div><img src="https://i2.bahamut.com.tw/noimg110A.gif" /><p>精華區有 <a href="/G1.php?bsn=36345">1</a> 筆文章<br />目前無人維護，<a href="/applyGM1.php?bsn=36345">申請組長</a>。</p>
+</div><!-- 板主區 結束 --><script>
+jQuery(function(){
+var chatMenu = jQuery('ul.BH-menuE > li > a[title="閒聊板"]');
+if (chatMenu.length == 0) {
+return;
+}
+
+var chatUrl = chatMenu.attr('href');
+jQuery('.FM-rbox14-master').parent('.BH-rbox.FM-rbox14')
+.after(`
+<div class="BH-rbox FM-rbox14 forum_chat_rbox">
+<div>
+<h3>輕鬆<b>閒聊板</b></h3>
+<p>輕鬆卡串、隨意曬卡不違規<br>不論非或歐，無壓力閒聊！<br>來這裡 ++！</p>
+<a href="${chatUrl}" class="btn btn-primary">進入閒聊板</a>
+</div>
+</div>
+`);
+});
+</script><h5 class="as-mes-wrapper"><div class="as-mes-header bh-b-title"><div class="as-mes-header__tool txt-align-l"><button class="btn-icon btn-icon--inverse" title="加入我的廣場" onclick="im_forum.reInviting(0,true);"><i class="material-icons">bookmark_border</i></button></div><div class="as-mes-title">廣場聊天室</div><div class="as-mes-header__tool txt-align-r"><button class="btn-icon btn-icon--inverse" title="開新視窗" onclick="im_forum_layout.showSingle(0);"><i class="material-icons">open_in_new</i></button><button class="btn-icon btn-icon--inverse" title="開啟完整版" onclick="window.open('https://haha.gamer.com.tw/?room=36345');ga('send','event','IM一般操作','開啟完整版','B頁');"><i class="material-icons">fullscreen</i></button></div></div></h5><div id="chatRoom"></div><script>var im_forum = new BAHA_IM_FORUM('forum',{bsn:"36345",btitle:"亙古幻想 Evertale",token:Cookies.get('hahatoken')});var im_forum_layout = new BAHA_IM_FORUM_LAYOUT();</script><h5>小屋最新創作</h5><div class="BH-rbox FM-rbox8"><p><a data-gtm="小屋最新創作" href="//home.gamer.com.tw/creationDetail.php?sn=4800834"><img src="https://p2.bahamut.com.tw/HOME/creationCover/34/0004800834.JPG" srcset="https://p2.bahamut.com.tw/HOME/creationCover/34/0004800834.JPG?w=180 1x,https://p2.bahamut.com.tw/HOME/creationCover/34/0004800834.JPG 2x" /></a><a data-gtm="小屋最新創作" href="//home.gamer.com.tw/creationDetail.php?sn=4800834">《超異域公主連結》新春可可蘿</a></p><p><a data-gtm="小屋最新創作" href="//home.gamer.com.tw/creationDetail.php?sn=4800815"><img src="https://p2.bahamut.com.tw/HOME/creationCover/15/0004800815.JPG" srcset="https://p2.bahamut.com.tw/HOME/creationCover/15/0004800815.JPG?w=180 1x,https://p2.bahamut.com.tw/HOME/creationCover/15/0004800815.JPG 2x" /></a><a data-gtm="小屋最新創作" href="//home.gamer.com.tw/creationDetail.php?sn=4800815">【開箱】不起眼女主角培育法FREEing加藤惠1/4裸足兔女郎Ver.不專業開箱文</a></p></div><h5><a name="quizAnchor"></a>動漫電玩通</h5>
+<div class="BH-rbox BH-qabox1" data-quiz-sn="86822">
+請問火屬性艾絲翠德的被動技能“聖火之印”，是需要此角色處於燃燒狀態還是需要場上有另一個火屬性的隊友才能發動效果？
+<ul>
+<li><a data-gtm="動漫電玩通答題" href="javascript:quiz.answer(1);">需要場上有另一個火屬性的隊友</a></li>
+<li><a data-gtm="動漫電玩通答題" href="javascript:quiz.answer(2);">需要此角色處於燃燒狀態</a></li>
+<li><a data-gtm="動漫電玩通答題" href="javascript:quiz.answer(3);">兩種都需要</a></li>
+<li><a data-gtm="動漫電玩通答題" href="javascript:quiz.answer(4);">兩種都不需要</a></li>
+</ul>
+<button type="button" onclick="window.open('//home.gamer.com.tw/quizEdit1.php?c1=34450');">我要出題</button>
+<span>作者：<a href="//home.gamer.com.tw/asdfg030" target="_blank">羿神</a>　<a href="javascript:quiz.report();">檢舉</a></span>
+</div>
+<script>
+var lastQuestion = {
+'sn': '86822',
+'question': '請問火屬性艾絲翠德的被動技能“聖火之印”，是需要此角色處於燃燒狀態還是需要場上有另一個火屬性的隊友才能發動效果？',
+'option1': '需要場上有另一個火屬性的隊友',
+'option2': '需要此角色處於燃燒狀態',
+'option3': '兩種都需要',
+'option4': '兩種都不需要',
+'userid': 'asdfg030'
+};
+quiz.setQuestion(lastQuestion);
+</script><div id='flySalve' style="margin-bottom:10px;">
+
+<!-- /1017768/B300 -->
+<div id='div-gpt-ad-1489070677458-0'>
+<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489070677458-0'); });</script>
+</div>
+</div>
+<script>
+(function(window, $) {
+$(function() {
+// ResizeSensor 在 dialogify.min.js 中
+new ResizeSensor($('#BH-master'), function() {
+$('#BH-slave').css('min-height', $('#BH-master').height());
+});
+});
+})(window, jQuery);
+</script>
+<style type="text/css">
+#flySalve {
+position: -webkit-sticky; /* for Safari */
+position: sticky;
+top: 76px;
+}
+</style>
+<script>
+if (0 > 0) {
+var elem = jQuery('.b-list__row a[name=0]');
+if (elem.length) {
+elem = elem.parents('.b-list__row');
+
+var scrollTop = elem.offset().top - 130;
+jQuery('html, body').scrollTop(scrollTop);
+elem.css('animation', '2s highlight');
+}
+}
+
+buttonToMobile();
+jQuery(function() {
+Forum.Common.addDarkThemeSwitch();
+Forum.B.showAd('36345');
+Forum.B.lazyThumbnail();
+Forum.B.drawNoImageCanvas();
+});
+
+jQuery('span.b-list__page').click(function(event) {
+event.preventDefault();
+window.location = jQuery(this).data('page');
+});
+
+jQuery('.FM-rbox8 img').load(function () {
+let dpr = Math.min(Math.round(window.devicePixelRatio), 2);
+
+// 有 srcset 倍率才做額外判斷
+if (jQuery(this).attr('srcset').split(',')[1] != undefined) {
+jQuery(this).height(jQuery(this).height() * dpr + 'px');
+}
+}).each(function() {
+if (this.complete) {
+jQuery(this).load();
+}
+});
+</script>
+<script type="text/template" id="imglistRelease">
+<div class="beta-imglist text-center">
+<a class="dialogify__close"><img src="https://i2.bahamut.com.tw/forum/beta/beta-x.png"></a>
+<div class="top-bolck">
+<div class="top-bolck_title">
+<img class="imglist-title" src="https://i2.bahamut.com.tw/forum/beta/beta-title.png">
+<div class="star">
+<img class="star01" src="https://i2.bahamut.com.tw/forum/beta/beta-star.png">
+<img class="star02" src="https://i2.bahamut.com.tw/forum/beta/beta-star2.png">
+<img class="star03" src="https://i2.bahamut.com.tw/forum/beta/beta-star3.png">
+</div>
+<a class="btn" href="javascript:document.querySelector('.dialogify').close();">我知道了</a>
+</div>
+<img class="top-bolck_footer" src="https://i2.bahamut.com.tw/forum/beta/beta-head.png">
+</div>
+<div class="bottom-bolck">
+<div class="bottom-bolck_main">
+<img class="bottom-bolck_main-2" src="https://i2.bahamut.com.tw/forum/beta/beta-img2.png">
+<img class="bottom-bolck_main-1" src="https://i2.bahamut.com.tw/forum/beta/beta-img3.png">
+<img class="bottom-bolck_main-3" src="https://i2.bahamut.com.tw/forum/beta/beta-img.png">
+</div>
+</div>
+</div>
+</script>
+<script>window.DFP.setcookie({"dc_c1":"34450"})</script></div><!--右側/全版區塊結束-->
+<br class="clearfloat" /><!--清除浮動-->
+<div id="BH-footer"><!--最底版權宣告-->
+<p>本站所刊載之圖文內容等版權皆屬原廠商或原作者所有，非經同意請勿轉載<br>
+巴 哈 姆 特 電 玩 資 訊 站 https://www.gamer.com.tw
+</p>
+</div><!--最底版權宣告結束-->
+</div>
+<!--最外層寬1000包裝結束-->
+</div>
+<div style="position: fixed; left: 20px; right: 20px; bottom: 20px; z-index: 99;">
+<div
+style="
+position: relative;
+display: none;
+padding: 15px 30px 15px 15px;
+border: 1px solid transparent;
+border-radius: 3px;
+line-height: 1.5;
+background: #FFFFDB;
+border-color: #E1D3B8;
+max-width: 1250px;
+margin: auto;
+color: #705930;">
+<a href="javascript:;" class="alert-close oldbrowser-close"><i class="fa fa-times"></i></a>
+<p style="color: #705930;"><i class="material-icons" style="vertical-align: bottom; font-size: 22px; margin-right: 5px;">face</i>基於日前微軟官方表示 Internet Explorer 不再支援新的網路標準，可能無法使用新的應用程式來呈現網站內容，在瀏覽器支援度及網站安全性的雙重考量下，為了讓巴友們有更好的使用體驗，巴哈姆特即將於 2019年9月2日 停止支援 Internet Explorer 瀏覽器的頁面呈現和功能。<br>屆時建議您使用下述瀏覽器來瀏覽巴哈姆特：<br><a href="https://www.google.com/intl/zh-TW_ALL/chrome/" style="color: #0055aa;" target="_blank">。Google Chrome（推薦）</a><br><a href="https://www.mozilla.org/zh-TW/firefox/new/" style="color: #0055aa;" target="_blank">。Mozilla Firefox</a><br><a href="https://www.microsoft.com/zh-tw/windows/microsoft-edge" style="color: #0055aa;" target="_blank">。Microsoft Edge（Windows10以上的作業系統版本才可使用）</a></p>
+</div>
+<div
+style="
+position: relative;
+display: none;
+padding: 15px 30px 15px 15px;
+border: 1px solid transparent;
+border-radius: 3px;
+line-height: 1.5;
+background: #FFFFDB;
+border-color: #E1D3B8;
+color: #705930;">
+<a href="javascript:;" class="alert-close adb-close"><i class="fa fa-times"></i></a>
+<p style="color: #705930;"><i class="material-icons" style="vertical-align: bottom; font-size: 22px; margin-right: 5px;">face</i>我們了解您不想看到廣告的心情⋯ 若您願意支持巴哈姆特永續經營，請將 gamer.com.tw 加入廣告阻擋工具的白名單中，謝謝 !<a href="https://goo.gl/PmkwWS" style="color: #0055aa;" target="_blank;">【教學】</a></p>
+</div>
+</div>
+<script>
+googlecseLoad();
+
+jQuery(".a-mercy-d").click(function() {
+var url = this.href;
+var goRedirect = false;
+var openNew = (this.target) ? true : false;
+
+if (url) {
+jQuery.get("/ajax/baha_lkasoo.php", {id: jQuery(this).data('ssn')})
+.done(function() {
+goRedirect = true;
+if (!openNew) {
+document.location = url;
+}
+});
+
+setTimeout(function() {
+if (!goRedirect) {
+if (!openNew) {
+document.location = url;
+}
+}
+}, 1500);
+}
+
+if (!openNew) {
+return false;
+}
+});
+
+var mercyadblock = (function () {
+var adblock = {};
+
+adblock.show = function () {
+jQuery('.adb-close').parent().show();
+};
+
+adblock.hide = function () {
+jQuery('.adb-close').parent().hide();
+};
+
+adblock.check = function () {
+if (localStorage.getItem('admercyblocks') === null) {
+jQuery('.adb-close').parent().show();
+} else {
+var hourts = Math.floor(Date.now() / 1000)-86400;
+if (localStorage.getItem('admercyblocks') < hourts) {
+jQuery('.adb-close').parent().show();
+localStorage.removeItem('admercyblocks');
+}
+}
+};
+
+return adblock;
+} ());
+
+var mercyoldbrowser = (function () {
+var oldbrowser = {};
+
+oldbrowser.show = function () {
+jQuery('.oldbrowser-close').parent().show();
+};
+
+oldbrowser.hide = function () {
+jQuery('.oldbrowser-close').parent().hide();
+};
+
+oldbrowser.check = function () {
+if (localStorage.getItem('oldbrowsermercy') === null) {
+jQuery('.oldbrowser-close').parent().show();
+} else {
+var hourts = Math.floor(Date.now() / 1000)-86400;
+if (localStorage.getItem('oldbrowsermercy') < hourts) {
+jQuery('.oldbrowser-close').parent().show();
+localStorage.removeItem('oldbrowsermercy');
+}
+}
+};
+
+return oldbrowser;
+} ());
+
+jQuery(".oldbrowser-close").click(function () {
+mercyoldbrowser.hide();
+
+if (typeof(Storage) !== "undefined") {
+localStorage.setItem('oldbrowsermercy', Math.floor(Date.now() / 1000));
+}
+});
+
+jQuery(".adb-close").click(function() {
+mercyadblock.hide();
+
+if (typeof(Storage) !== "undefined") {
+localStorage.setItem('admercyblocks', Math.floor(Date.now() / 1000));
+}
+});
+
+jQuery('body').click(function(event){
+if (!jQuery(event.target).parents('.TOP-btn').length
+&& !jQuery(event.target).parents('.TOP-my').length
+&& jQuery(event.target).parents('.TOP-msg').attr('id') != 'topBarMsg_'+topBarType) {
+if (!jQuery('#topBarMsg_'+topBarType).is(':hidden')) {
+jQuery('#topBarMsg_'+topBarType).css('display','none');
+jQuery('#topBar_'+topBarType).attr('class', topBarClass);
+}
+
+insideSecondaryfunc(2, event);
+}
+});
+
+if (typeof(chpagehotkey) == 'function') {
+document.onkeydown = function (evt){
+evt = window.event || evt;
+chpagehotkey(evt.keyCode);
+};
+}
+</script>
+<script>
+var isIEFlag=window.ActiveXObject || "ActiveXObject" in window;
+jQuery(function() {
+TopBar.render();
+TopBar.getNotifyNumber();
+if (typeof(Storage) === "undefined") {
+/*load fail*/
+if (typeof antiadb === 'undefined') {
+mercyadblock.show();
+} else {
+/*load success but open*/
+antiadb.onDetected(function () {
+mercyadblock.show();
+});
+}
+
+if (isIEFlag) {
+mercyoldbrowser.show();
+}
+} else {
+/*load fail*/
+if (typeof antiadb === 'undefined') {
+mercyadblock.check();
+} else {
+/*load success but open*/
+antiadb.onDetected(function(){
+mercyadblock.check();
+});
+}
+
+if (isIEFlag) {
+mercyoldbrowser.check();
+}
+}
+});
+</script>
+</body>
+</html>
